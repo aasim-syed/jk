@@ -8,38 +8,30 @@ import Heroimg from "./Images/Mask_Group_7.png";
 import Footer from "../Footer/Footer";
 import G24 from "./Images/Group_24@2x.png";
 
-
-
 const Home1 = () => {
-  
-
   return (
     <>
-    
-    
-    
-    
-     
-      <Fade bottom>
         
         <Navbar />
+        <Fade bottom duration={3100} distance="310px">
         <Footer />
+        </Fade>
+        <Fade bottom duration={3100} distance="310px">
         <Hero1>
           <Fade bottom>
-          
             <Img>
               <Image id="Mask_Group_7" src={Heroimg}></Image>
             </Img>
-            
           </Fade>
-          
+          <Fade bottom duration={3100} distance="310px">
           <div id="Building_Homes_and__Commercial">
             <span>
               Building Homes and <br />
               Commercial projects
             </span>
           </div>
-          
+          </Fade>
+          <Fade bottom duration={3100} distance="310px">
           <div id="Our_promise_as_a_contractor_is">
             <span>
               Our promise as a contractor is to build community value
@@ -47,10 +39,11 @@ const Home1 = () => {
               into every project while delivering professional expertise.
             </span>
           </div>
-
+          </Fade>
           <button id="OUR_SERVICES">
             <span>OUR SERVICES</span>
           </button>
+          <Fade bottom duration={3100} distance="310px">
           <div id="J_and_K_General_Contractors_wi">
             <span>
               J and K General Contractors, with all the engineering <br />
@@ -60,7 +53,8 @@ const Home1 = () => {
               time-controlled, and durable performance products and services.
             </span>
           </div>
-
+          </Fade>
+          <Fade bottom duration={3100} distance="310px">
           <div id="Group_22">
             <svg className="Rectangle_1327">
               <rect
@@ -77,6 +71,8 @@ const Home1 = () => {
               <span>KNOW MORE</span>
             </button>
           </div>
+          </Fade>
+          
           <svg className="Path_1" viewBox="0 265.761 0.239 0.758">
             <path
               id="Path_1"
@@ -101,14 +97,18 @@ const Home1 = () => {
               d="M 223.3491516113281 200.724609375 C 223.3549194335938 200.7565765380859 223.3519897460938 200.7914581298828 223.3694763183594 200.8205108642578 L 223.3752746582031 200.8437347412109 C 223.3869018554688 200.8582458496094 223.4129943847656 200.8553619384766 223.4275512695312 200.8669891357422 C 223.4566040039062 200.8960266113281 223.4769287109375 200.9279937744141 223.5146789550781 200.9425201416016 C 223.5437927246094 200.9483337402344 223.5699157714844 200.9570465087891 223.5960388183594 200.9570465087891 C 223.6541748046875 200.9570465087891 223.7093505859375 200.9395904541016 223.7587280273438 200.90185546875 L 251.8032531738281 180.4109802246094 C 251.8468627929688 180.3819427490234 251.8614196777344 180.3325653076172 251.8788146972656 180.2889556884766 C 251.8845825195312 180.2773590087891 251.9020690917969 180.2831420898438 251.9049377441406 180.2686309814453 L 276.466064453125 97.02691650390625 L 276.4632263183594 97.00657653808594 C 276.471923828125 96.97463226318359 276.4573669433594 96.94268035888672 276.4544372558594 96.91071319580078 C 276.4486694335938 96.87294769287109 276.4486694335938 96.83807373046875 276.4283142089844 96.80610656738281 L 276.4224548339844 96.78578948974609 C 276.4050598144531 96.76252746582031 276.3730773925781 96.75963592529297 276.3499145507812 96.7451171875 C 276.3266296386719 96.72476196289062 276.3120727539062 96.69572448730469 276.2801818847656 96.68699645996094 L 276.2626953125 96.68992614746094 C 276.2278747558594 96.68118286132812 276.1987609863281 96.69572448730469 276.1639404296875 96.7015380859375 C 276.1261901855469 96.70733642578125 276.09130859375 96.70733642578125 276.062255859375 96.72766876220703 L 276.0419311523438 96.73350524902344 L 250.3303527832031 115.8472213745117 C 250.3041687011719 115.8646774291992 250.3041687011719 115.8937149047852 250.2896728515625 115.9140701293945 C 250.2721862792969 115.9373092651367 250.2431640625 115.9518356323242 250.2315063476562 115.9808883666992 L 223.3375244140625 200.5996551513672 L 223.3403625488281 200.6200256347656 C 223.3316650390625 200.6549224853516 223.3403625488281 200.6868133544922 223.3491516113281 200.724609375 M 250.7254333496094 116.2307357788086 L 275.710693359375 97.65737152099609 L 251.4081726074219 180.0275115966797 L 224.1102905273438 199.96923828125 L 250.7254333496094 116.2307357788086 Z"
             ></path>
           </svg>
+          <Fade bottom duration={3100} distance="310px">
           <Why />
+          </Fade>
           {/* <svg class="Rectangle_1329">
 		<rect id="Rectangle_1329" rx="0" ry="0" x="0" y="0" width="100%" height="1083">
 		</rect>
 	</svg> */}
+ 
           <div id="WHY_CHOOSE_US">
             <span>WHY CHOOSE US?</span>
           </div>
+          
           <svg className="Rectangle_80">
             <rect
               id="Rectangle_80"
@@ -219,14 +219,18 @@ const Home1 = () => {
           <div id="KNOW_MORE_cd">
             <span>KNOW MORE</span>
           </div>
+          
           <Yourbest>
+          <Fade bottom duration={3100} distance="310px">
             <Image src={G24}></Image>
+            </Fade>
             <div id="YOUR_BEST_GENERAL__CONTRACTOR_">
               <span>
                 YOUR BEST GENERAL <br />
                 CONTRACTOR COMPANY
               </span>
             </div>
+            <Fade bottom duration={3100} distance="310px">
             <div id="J_and_K_General_Contractors_is">
               <p>
                 J and K General Contractors is one of the leading companies in
@@ -240,14 +244,17 @@ const Home1 = () => {
                 Projects for both Public and Private Sectors in the Region.
               </p>
             </div>
+            </Fade>
+            <Fade bottom duration={3100} distance="310px">
             <button id="Aboutus">ABOUT US</button>
+            </Fade>
           </Yourbest>
+          
           <div id="Certified_Contractors">
             <span>Certified Contractors</span>
           </div>
         </Hero1>
       </Fade>
-     
     </>
   );
 };
@@ -259,7 +266,7 @@ const Hero1 = Styled.div`
 margin: 0 auto;
 width: 100%;
   position: absolute;
-  width: 1920px;
+  width: 100%;
   height: 9560px;
   background-color: rgba(252, 252, 250, 1);
   overflow: hidden;
@@ -272,9 +279,18 @@ width: 100%;
     position: absolute;
     width: 1786px;
     height: 906px;
+    
     left: 67px;
     top: 168px;
     overflow: visible;
+    @keyframes {
+      from{
+        opacity: 0;
+      }
+      to{
+        opacity: 100;
+      }
+    }
   }
   #Mask_Group_8 {
     position: absolute;
@@ -282,6 +298,7 @@ width: 100%;
     height: 777px;
     left: 67px;
     top: 6556px;
+    
     overflow: visible;
   }
   #Mask_Group_9 {
@@ -1468,3 +1485,11 @@ const Yourbest = Styled.div`
   }
 `;
 const Cc = Styled.div``;
+
+const Sechero = Styled.div`
+top: 1079px;
+left: 785px;
+width: 1135px;
+height: 1165px;
+background: transparent url('img/Group 5.png') 0% 0% no-repeat padding-box;
+opacity: 1;`;

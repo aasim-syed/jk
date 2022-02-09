@@ -65,7 +65,7 @@ overflow: visible;
 	left: 0px;
 	top: 7236px;
 	right: 0px;
-	overflow: visible;
+	
 	background-color:rgba(31,82,65,1);
 }
 .Rectangle_1385 {

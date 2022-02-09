@@ -44,7 +44,7 @@ const Navbar1 = styled.div`
 
 	margin: 0 auto;
 	width: 100%;
-
+  display: grid;
  // background:red;
   a {
     color: none;
@@ -76,6 +76,7 @@ const Navbar1 = styled.div`
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
+    display: grid;
     color: rgba(0, 0, 0, 1);
     :hover {
       color: rgba(31, 81, 64, 1);
