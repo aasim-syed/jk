@@ -1,16 +1,2407 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Numans&family=Open+Sans:wght@300;500&display=swap');
+	.mediaViewInfo {
+		--web-view-name: ABOUT US;
+		--web-view-id: ABOUT_US;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	:root {
+		--web-view-ids: ABOUT_US;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		border: none;
+	}
+	#ABOUT_US {
+		position: absolute;
+		width: 1920px;
+		height: 7983px;
+		background-color: rgba(252,252,250,1);
+		overflow: hidden;
+		--web-view-name: ABOUT US;
+		--web-view-id: ABOUT_US;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#Rectangle_1388 {
+		fill: rgba(31,82,65,1);
+	}
+	.Rectangle_1388 {
+		position: absolute;
+		overflow: visible;
+		width: 2029px;
+		height: 1146px;
+		left: -69px;
+		top: 2249px;
+	}
+	#To_provide_our_customers_the_h {
+		left: 182px;
+		top: 2897px;
+		position: absolute;
+		overflow: visible;
+		width: 1031px;
+		white-space: nowrap;
+		line-height: 32px;
+		margin-top: -3.5px;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(252,252,250,1);
+	}
+	#To_maintain_the_highest_levels {
+		left: 182px;
+		top: 3122px;
+		position: absolute;
+		overflow: visible;
+		width: 1053px;
+		white-space: nowrap;
+		line-height: 32px;
+		margin-top: -3.5px;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(252,252,250,1);
+	}
+	#Strive_to_have_the_highest_qua {
+		left: 182px;
+		top: 2672px;
+		position: absolute;
+		overflow: visible;
+		width: 1094px;
+		height: 124px;
+		line-height: 32px;
+		margin-top: -3.5px;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(252,252,250,1);
+	}
+	#OUR_MISSION {
+		left: 67px;
+		top: 2372px;
+		position: absolute;
+		overflow: visible;
+		width: 447px;
+		white-space: nowrap;
+		line-height: 85px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 77px;
+		color: rgba(252,252,250,1);
+		text-transform: capitalize;
+	}
+	#n_ {
+		left: 67px;
+		top: 2672px;
+		position: absolute;
+		overflow: visible;
+		width: 14px;
+		white-space: nowrap;
+		line-height: 32px;
+		margin-top: -3.5px;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(252,252,250,1);
+	}
+	#n__p {
+		left: 67px;
+		top: 2897px;
+		position: absolute;
+		overflow: visible;
+		width: 16px;
+		white-space: nowrap;
+		line-height: 32px;
+		margin-top: -3.5px;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(252,252,250,1);
+	}
+	#n__q {
+		left: 67px;
+		top: 3122px;
+		position: absolute;
+		overflow: visible;
+		width: 17px;
+		white-space: nowrap;
+		line-height: 32px;
+		margin-top: -3.5px;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(252,252,250,1);
+	}
+	#Path_1 {
+		fill: rgba(46,70,204,1);
+	}
+	.Path_1 {
+		overflow: visible;
+		position: absolute;
+		width: 0.239px;
+		height: 0.758px;
+		left: 322.481px;
+		top: 2189.006px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_4 {
+		fill: rgba(46,70,204,1);
+	}
+	.Path_4 {
+		overflow: visible;
+		position: absolute;
+		width: 4.489px;
+		height: 1.534px;
+		left: 1845.538px;
+		top: 2252.466px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Group_5 {
+		position: absolute;
+		width: 1135.264px;
+		height: 1165.243px;
+		left: 784.737px;
+		top: 1078.992px;
+		overflow: visible;
+	}
+	#Path_2006 {
+		fill: rgba(224,224,224,1);
+	}
+	.Path_2006 {
+		overflow: visible;
+		position: absolute;
+		width: 743.807px;
+		height: 1165.243px;
+		left: 391.456px;
+		top: 0px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2007 {
+		fill: rgba(7,7,7,1);
+	}
+	.Path_2007 {
+		overflow: visible;
+		position: absolute;
+		width: 963.955px;
+		height: 891.225px;
+		left: 171.301px;
+		top: 0.008px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Path_2008 {
+		fill: rgba(7,6,6,1);
+	}
+	.Path_2008 {
+		overflow: visible;
+		position: absolute;
+		width: 1135.256px;
+		height: 459.788px;
+		left: 0px;
+		top: 0.008px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Rectangle_85 {
+		fill: rgba(0,0,0,0);
+	}
+	.Rectangle_85 {
+		position: absolute;
+		overflow: visible;
+		width: 1135.263px;
+		height: 1165.233px;
+		left: 0px;
+		top: 0.008px;
+	}
+	#Screenshot_2021-12-22_at_60741 {
+		filter: drop-shadow(7px 8px 17px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 435px;
+		height: 435px;
+		left: 124.25px;
+		top: 4925px;
+		overflow: visible;
+	}
+	#Screenshot_2021-12-22_at_62022 {
+		filter: drop-shadow(7px 8px 17px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 435px;
+		height: 435px;
+		left: 751.25px;
+		top: 4925px;
+		overflow: visible;
+	}
+	#Screenshot_2021-12-22_at_64912 {
+		filter: drop-shadow(7px 8px 17px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 435px;
+		height: 435px;
+		left: 1378.25px;
+		top: 4925px;
+		overflow: visible;
+	}
+	#Group_21 {
+		position: absolute;
+		width: 255px;
+		height: 100.729px;
+		left: 214.25px;
+		top: 5387.947px;
+		overflow: visible;
+	}
+	#Dan_Farrell {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 256px;
+		white-space: nowrap;
+		line-height: 137px;
+		margin-top: -43px;
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 51px;
+		color: rgba(0,0,0,1);
+	}
+	#Executive_Director {
+		left: 17.183px;
+		top: 68.729px;
+		position: absolute;
+		overflow: visible;
+		width: 211px;
+		white-space: nowrap;
+		line-height: 73px;
+		margin-top: -23px;
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 27px;
+		color: rgba(0,0,0,1);
+	}
+	#JAMAL_SHAHBAIN {
+		left: 235.5px;
+		top: 4620.947px;
+		position: absolute;
+		overflow: visible;
+		width: 447px;
+		white-space: nowrap;
+		line-height: 137px;
+		margin-top: -43px;
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 51px;
+		color: rgba(0,0,0,1);
+	}
+	#President {
+		left: 404px;
+		top: 4689.675px;
+		position: absolute;
+		overflow: visible;
+		width: 110px;
+		white-space: nowrap;
+		line-height: 73px;
+		margin-top: -23px;
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 27px;
+		color: rgba(0,0,0,1);
+	}
+	#KAMAL_ABUDAYEH {
+		left: 1227.5px;
+		top: 4620.947px;
+		position: absolute;
+		overflow: visible;
+		width: 469px;
+		white-space: nowrap;
+		line-height: 137px;
+		margin-top: -43px;
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 51px;
+		color: rgba(0,0,0,1);
+	}
+	#Vice_President {
+		left: 1378.5px;
+		top: 4689.675px;
+		position: absolute;
+		overflow: visible;
+		width: 167px;
+		white-space: nowrap;
+		line-height: 73px;
+		margin-top: -23px;
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 27px;
+		color: rgba(0,0,0,1);
+	}
+	#Armando_Rodriguez {
+		left: 106.75px;
+		top: 6175.947px;
+		position: absolute;
+		overflow: visible;
+		width: 471px;
+		white-space: nowrap;
+		line-height: 137px;
+		margin-top: -43px;
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 51px;
+		color: rgba(0,0,0,1);
+	}
+	#Project_Manager {
+		left: 231.433px;
+		top: 6244.675px;
+		position: absolute;
+		overflow: visible;
+		width: 192px;
+		white-space: nowrap;
+		line-height: 73px;
+		margin-top: -23px;
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 27px;
+		color: rgba(0,0,0,1);
+	}
+	#Darlene_Leggett {
+		left: 153.75px;
+		top: 6929.947px;
+		position: absolute;
+		overflow: visible;
+		width: 377px;
+		white-space: nowrap;
+		line-height: 137px;
+		margin-top: -43px;
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 51px;
+		color: rgba(0,0,0,1);
+	}
+	#Secretary_ {
+		left: 267.933px;
+		top: 6998.675px;
+		position: absolute;
+		overflow: visible;
+		width: 119px;
+		white-space: nowrap;
+		line-height: 73px;
+		margin-top: -23px;
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 27px;
+		color: rgba(0,0,0,1);
+	}
+	#Steve_Phillips {
+		left: 809.75px;
+		top: 5387.947px;
+		position: absolute;
+		overflow: visible;
+		width: 318px;
+		white-space: nowrap;
+		line-height: 137px;
+		margin-top: -43px;
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 51px;
+		color: rgba(0,0,0,1);
+	}
+	#Angela_Wood {
+		left: 813.933px;
+		top: 6175.947px;
+		position: absolute;
+		overflow: visible;
+		width: 317px;
+		white-space: nowrap;
+		line-height: 137px;
+		margin-top: -43px;
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 51px;
+		color: rgba(0,0,0,1);
+	}
+	#Jimmy_Wood {
+		left: 814.25px;
+		top: 6929.947px;
+		position: absolute;
+		overflow: visible;
+		width: 309px;
+		white-space: nowrap;
+		line-height: 137px;
+		margin-top: -43px;
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 51px;
+		color: rgba(0,0,0,1);
+	}
+	#Commercial_Project_Manager {
+		left: 857.933px;
+		top: 5456.729px;
+		position: absolute;
+		overflow: visible;
+		width: 229px;
+		white-space: nowrap;
+		line-height: 34px;
+		margin-top: -3.5px;
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 27px;
+		color: rgba(0,0,0,1);
+	}
+	#Administration_ {
+		left: 884.933px;
+		top: 6244.729px;
+		position: absolute;
+		overflow: visible;
+		width: 174px;
+		white-space: nowrap;
+		line-height: 34px;
+		margin-top: -3.5px;
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 27px;
+		color: rgba(0,0,0,1);
+	}
+	#Superintendent_ {
+		left: 878.933px;
+		top: 6998.729px;
+		position: absolute;
+		overflow: visible;
+		width: 187px;
+		white-space: nowrap;
+		line-height: 34px;
+		margin-top: -3.5px;
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 27px;
+		color: rgba(0,0,0,1);
+	}
+	#Adel_Seragi {
+		left: 1461.25px;
+		top: 5388px;
+		position: absolute;
+		overflow: visible;
+		width: 271px;
+		white-space: nowrap;
+		line-height: 137px;
+		margin-top: -43px;
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 51px;
+		color: rgba(0,0,0,1);
+	}
+	#Addison_Virt {
+		left: 1461.25px;
+		top: 6176px;
+		position: absolute;
+		overflow: visible;
+		width: 289px;
+		white-space: nowrap;
+		line-height: 137px;
+		margin-top: -43px;
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 51px;
+		color: rgba(0,0,0,1);
+	}
+	#Albert_Lamb {
+		left: 1461.25px;
+		top: 6930px;
+		position: absolute;
+		overflow: visible;
+		width: 289px;
+		white-space: nowrap;
+		line-height: 137px;
+		margin-top: -43px;
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 51px;
+		color: rgba(0,0,0,1);
+	}
+	#Project_Manager_bl {
+		left: 1500.75px;
+		top: 5456.729px;
+		position: absolute;
+		overflow: visible;
+		width: 192px;
+		white-space: nowrap;
+		line-height: 73px;
+		margin-top: -23px;
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 27px;
+		color: rgba(0,0,0,1);
+	}
+	#Office_Manager {
+		left: 1507.75px;
+		top: 6244.729px;
+		position: absolute;
+		overflow: visible;
+		width: 178px;
+		white-space: nowrap;
+		line-height: 73px;
+		margin-top: -23px;
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 27px;
+		color: rgba(0,0,0,1);
+	}
+	#Superintendent__bn {
+		left: 1500.75px;
+		top: 6998.729px;
+		position: absolute;
+		overflow: visible;
+		width: 186px;
+		white-space: nowrap;
+		line-height: 73px;
+		margin-top: -23px;
+		text-align: left;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 27px;
+		color: rgba(0,0,0,1);
+	}
+	#Screenshot_2021-12-24_at_75249 {
+		filter: drop-shadow(7px 8px 17px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 435px;
+		height: 435px;
+		left: 1378.25px;
+		top: 5696px;
+		overflow: visible;
+	}
+	#Screenshot_2021-12-24_at_75243 {
+		filter: drop-shadow(7px 8px 17px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 435px;
+		height: 435px;
+		left: 751.25px;
+		top: 5696px;
+		overflow: visible;
+	}
+	#Screenshot_2021-12-24_at_75234 {
+		filter: drop-shadow(7px 8px 17px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 435px;
+		height: 435px;
+		left: 124.25px;
+		top: 5696px;
+		overflow: visible;
+	}
+	#Screenshot_2021-12-24_at_75733 {
+		position: absolute;
+		width: 435px;
+		height: 435px;
+		left: 124.25px;
+		top: 6450px;
+		overflow: visible;
+	}
+	#Screenshot_2021-12-24_at_75741 {
+		position: absolute;
+		width: 435px;
+		height: 435px;
+		left: 751.25px;
+		top: 6450px;
+		overflow: visible;
+	}
+	#Screenshot_2021-12-24_at_75745 {
+		position: absolute;
+		width: 435px;
+		height: 435px;
+		left: 1378.25px;
+		top: 6450px;
+		overflow: visible;
+	}
+	#Screenshot_2021-12-25_at_72431 {
+		filter: drop-shadow(7px 8px 18px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 703px;
+		height: 703px;
+		left: 107px;
+		top: 3881px;
+		overflow: visible;
+	}
+	#Screenshot_2021-12-25_at_72701 {
+		filter: drop-shadow(7px 8px 18px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		width: 703px;
+		height: 703px;
+		left: 1110px;
+		top: 3881px;
+		overflow: visible;
+	}
+	#Mask_Group_10 {
+		position: absolute;
+		width: 1786px;
+		height: 906px;
+		left: 67px;
+		top: 171px;
+		overflow: visible;
+	}
+	#Rectangle_1387 {
+		opacity: 0.51;
+		fill: rgba(74,74,34,1);
+	}
+	.Rectangle_1387 {
+		mix-blend-mode: overlay;
+		position: absolute;
+		overflow: visible;
+		width: 1786px;
+		height: 906px;
+		left: 67px;
+		top: 171px;
+	}
+	#n__Jamal_Shabin__Founder {
+		left: 1020px;
+		top: 903px;
+		position: absolute;
+		overflow: visible;
+		width: 310px;
+		white-space: nowrap;
+		line-height: 32px;
+		margin-top: -3.5px;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(252,252,250,1);
+	}
+	#HOME {
+		left: 980px;
+		top: 79px;
+		position: absolute;
+		overflow: visible;
+		width: 80px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#ABOUT_US_b {
+		left: 1129px;
+		top: 79px;
+		position: absolute;
+		overflow: visible;
+		width: 134px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(31,81,64,1);
+	}
+	#SERVICES {
+		left: 1330px;
+		top: 79px;
+		position: absolute;
+		overflow: visible;
+		width: 125px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#CONTACT {
+		left: 1728px;
+		top: 79px;
+		position: absolute;
+		overflow: visible;
+		width: 126px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#We_are_bringing_technical_know {
+		left: 1020px;
+		top: 697px;
+		position: absolute;
+		overflow: hidden;
+		width: 790px;
+		height: 194px;
+		line-height: 65px;
+		margin-top: -7.5px;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 50px;
+		color: rgba(252,252,250,1);
+	}
+	#J_and_K_General_Contractors_is {
+		left: 67px;
+		top: 1271px;
+		position: absolute;
+		overflow: visible;
+		width: 767px;
+		height: 300px;
+		line-height: 32px;
+		margin-top: -3.5px;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(31,82,65,1);
+	}
+	#J_and_K_General_Contractors_wi {
+		left: 67px;
+		top: 1603px;
+		position: absolute;
+		overflow: hidden;
+		width: 753px;
+		height: 181px;
+		line-height: 32px;
+		margin-top: -3.5px;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(31,82,65,1);
+	}
+	#Group_27 {
+		position: absolute;
+		width: 2029px;
+		height: 750px;
+		left: -54px;
+		top: 7236px;
+		overflow: visible;
+	}
+	#Rectangle_1385 {
+		fill: rgba(31,82,65,1);
+	}
+	.Rectangle_1385 {
+		position: absolute;
+		overflow: visible;
+		width: 2029px;
+		height: 750px;
+		left: 0px;
+		top: 0px;
+	}
+	#J_AND_K_CONSTRUCTION {
+		left: 128px;
+		top: 275px;
+		position: absolute;
+		overflow: visible;
+		width: 820px;
+		white-space: nowrap;
+		line-height: 106px;
+		margin-top: -13px;
+		text-align: left;
+		font-family: Termina;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 80px;
+		color: rgba(252,252,250,1);
+		letter-spacing: -0.1px;
+	}
+	#INSTAGRAM {
+		left: 128px;
+		top: 87px;
+		position: absolute;
+		overflow: visible;
+		width: 182px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(252,252,250,1);
+	}
+	#Terms_of_Use {
+		left: 128px;
+		top: 605px;
+		position: absolute;
+		overflow: visible;
+		width: 191px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(252,252,250,1);
+	}
+	#FACEBOOK {
+		left: 372px;
+		top: 87px;
+		position: absolute;
+		overflow: visible;
+		width: 172px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(252,252,250,1);
+	}
+	#Privacy_Policy {
+		left: 372px;
+		top: 605px;
+		position: absolute;
+		overflow: visible;
+		width: 206px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(252,252,250,1);
+	}
+	#BACK_TO_TOP {
+		left: 1709px;
+		top: 87px;
+		position: absolute;
+		overflow: visible;
+		width: 206px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(252,252,250,1);
+	}
+	#Copyright_2022 {
+		left: 1685px;
+		top: 605px;
+		position: absolute;
+		overflow: visible;
+		width: 234px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(252,252,250,1);
+	}
+	#GET_IN_TOUCH {
+		left: 1337px;
+		top: 87px;
+		position: absolute;
+		overflow: visible;
+		width: 222px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(252,252,250,1);
+	}
+	#n_45_Laurinburg_Rd_Raeford_NC_ {
+		left: 1337px;
+		top: 296px;
+		position: absolute;
+		overflow: visible;
+		width: 280px;
+		white-space: nowrap;
+		line-height: 38px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(252,252,250,1);
+	}
+	#n__910-248-6464_infojandkbuild {
+		left: 1337px;
+		top: 388px;
+		position: absolute;
+		overflow: visible;
+		width: 355px;
+		white-space: nowrap;
+		line-height: 38px;
+		margin-top: -4px;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: rgba(252,252,250,1);
+	}
+	#Line_3 {
+		opacity: 0.505;
+		fill: transparent;
+		stroke: rgba(252,252,250,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_3 {
+		overflow: visible;
+		position: absolute;
+		width: 1682px;
+		height: 1px;
+		left: 67.5px;
+		top: 2835.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Line_4 {
+		opacity: 0.505;
+		fill: transparent;
+		stroke: rgba(252,252,250,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_4 {
+		overflow: visible;
+		position: absolute;
+		width: 1682px;
+		height: 1px;
+		left: 67.5px;
+		top: 3040.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#Line_5 {
+		opacity: 0.505;
+		fill: transparent;
+		stroke: rgba(252,252,250,1);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Line_5 {
+		overflow: visible;
+		position: absolute;
+		width: 1682px;
+		height: 1px;
+		left: 67.5px;
+		top: 3265.5px;
+		transform: matrix(1,0,0,1,0,0);
+	}
+	#OUR_TEAM {
+		left: 750px;
+		top: 3516px;
+		position: absolute;
+		overflow: visible;
+		width: 422px;
+		white-space: nowrap;
+		line-height: 82px;
+		margin-top: -2.5px;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 77px;
+		color: rgba(31,82,65,1);
+	}
+	#Meet_our_team_of_fully_qualifi {
+		left: 279px;
+		top: 3648px;
+		position: absolute;
+		overflow: visible;
+		width: 1363px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 32px;
+		color: rgba(31,82,65,1);
+	}
+	#Component_8__2 {
+		position: absolute;
+		width: 132px;
+		height: 30px;
+		left: 1524px;
+		top: 79px;
+		overflow: visible;
+	}
+	#PROJECTS {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 133px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Numans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 25px;
+		color: rgba(0,0,0,1);
+	}
+	#Image_10 {
+		position: absolute;
+		width: 165px;
+		height: 75px;
+		left: 67px;
+		top: 44px;
+		overflow: visible;
+	}
+  .mediaViewInfo {
+    --web-view-name: HOME – 1;
+    --web-view-id: HOME__1;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+:root {
+    --web-view-ids: HOME__1;
 }
-
 * {
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
 }
+#HOME__1 {
+    position: absolute;
+    width: 1920px;
+    height: 9560px;
+    background-color: rgba(252,252,250,1);
+    overflow: hidden;
+    --web-view-name: HOME – 1;
+    --web-view-id: HOME__1;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+#Mask_Group_7 {
+    position: absolute;
+    width: 1786px;
+    height: 906px;
+    left: 67px;
+    top: 168px;
+    overflow: visible;
+}
+#Mask_Group_8 {
+    position: absolute;
+    width: 1532px;
+    height: 777px;
+    left: 67px;
+    top: 6556px;
+    overflow: visible;
+}
+#Mask_Group_9 {
+    position: absolute;
+    width: 1532px;
+    height: 777px;
+    left: 1652px;
+    top: 6556px;
+    overflow: visible;
+}
+#Rectangle_57 {
+    fill: rgba(31,82,65,1);
+}
+.Rectangle_57 {
+    position: absolute;
+    overflow: visible;
+    width: 1920px;
+    height: 1289px;
+    left: 0px;
+    top: 3329px;
+}
+#HOME {
+    left: 980px;
+    top: 79px;
+    position: absolute;
+    overflow: visible;
+    width: 80px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(31,82,65,1);
+}
+#Our_promise_as_a_contractor_is {
+    left: 138px;
+    top: 698px;
+    position: absolute;
+    overflow: visible;
+    width: 685px;
+    white-space: nowrap;
+    line-height: 32px;
+    margin-top: -3.5px;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(252,252,250,1);
+}
+#J_and_K_General_Contractors_is {
+    left: 831px;
+    top: 4155px;
+    position: absolute;
+    overflow: visible;
+    width: 815px;
+    white-space: nowrap;
+    line-height: 32px;
+    margin-top: -3.5px;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(252,252,250,1);
+}
+#J_and_K_General_Contractors_wi {
+    left: 138px;
+    top: 1258px;
+    position: absolute;
+    overflow: visible;
+    width: 784px;
+    white-space: nowrap;
+    line-height: 32px;
+    margin-top: -3.5px;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(31,82,65,1);
+}
+#Building_Homes_and__Commercial {
+    left: 138px;
+    top: 501px;
+    position: absolute;
+    overflow: visible;
+    width: 799px;
+    white-space: nowrap;
+    line-height: 85px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 77px;
+    color: rgba(252,252,250,1);
+}
+#WHY_CHOOSE_US {
+    left: 606px;
+    top: 2372px;
+    position: absolute;
+    overflow: visible;
+    width: 736px;
+    white-space: nowrap;
+    line-height: 85px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 77px;
+    color: rgba(255,255,255,1);
+}
+#ABOUT_US {
+    left: 1129px;
+    top: 79px;
+    position: absolute;
+    overflow: visible;
+    width: 133px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(0,0,0,1);
+}
+#SERVICES {
+    left: 1330px;
+    top: 79px;
+    position: absolute;
+    overflow: visible;
+    width: 125px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(0,0,0,1);
+}
+#CONTACT {
+    left: 1728px;
+    top: 79px;
+    position: absolute;
+    overflow: visible;
+    width: 126px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(0,0,0,1);
+}
+#Rectangle_3 {
+    fill: rgba(31,82,65,1);
+}
+.Rectangle_3 {
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 75px;
+    left: 138px;
+    top: 809px;
+}
+#Rectangle_1329 {
+    fill: rgba(31,82,65,1);
+}
+.Rectangle_1329 {
+    position: absolute;
+    overflow: visible;
+    width: 2029px;
+    height: 1083px;
+    left: -61px;
+    top: 2249px;
+}
+#Rectangle_1385 {
+    fill: rgba(31,82,65,1);
+}
+.Rectangle_1385 {
+    position: absolute;
+    overflow: visible;
+    width: 2029px;
+    height: 750px;
+    left: -61px;
+    top: 8869px;
+}
+#OUR_SERVICES {
+    left: 170px;
+    top: 832px;
+    position: absolute;
+    overflow: visible;
+    width: 205px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(252,252,250,1);
+    letter-spacing: 0.6px;
+}
+#Group_22 {
+    position: absolute;
+    width: 268px;
+    height: 75px;
+    left: 138px;
+    top: 1465px;
+    overflow: visible;
+}
+#Rectangle_1327 {
+    fill: rgba(31,82,65,1);
+}
+.Rectangle_1327 {
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 75px;
+    left: 0px;
+    top: 0px;
+}
+#KNOW_MORE {
+    left: 46px;
+    top: 23px;
+    position: absolute;
+    overflow: visible;
+    width: 178px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(252,252,250,1);
+    letter-spacing: 0.6px;
+}
+#Path_1 {
+    fill: rgba(46,70,204,1);
+}
+.Path_1 {
+    overflow: visible;
+    position: absolute;
+    width: 0.239px;
+    height: 0.758px;
+    left: 322.481px;
+    top: 2189.006px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_2 {
+    fill: rgba(0,0,0,1);
+}
+.Path_2 {
+    overflow: visible;
+    position: absolute;
+    width: 1596.522px;
+    height: 837.1px;
+    left: 322.481px;
+    top: 1410.9px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_4 {
+    fill: rgba(46,70,204,1);
+}
+.Path_4 {
+    overflow: visible;
+    position: absolute;
+    width: 4.489px;
+    height: 1.534px;
+    left: 1845.538px;
+    top: 2252.466px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Path_5 {
+    fill: rgba(46,70,204,1);
+}
+.Path_5 {
+    overflow: visible;
+    position: absolute;
+    width: 53.129px;
+    height: 104.27px;
+    left: 971.334px;
+    top: 1697.801px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Certified_Contractors {
+    left: 548px;
+    top: 4750px;
+    position: absolute;
+    overflow: visible;
+    width: 825px;
+    white-space: nowrap;
+    line-height: 85px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 77px;
+    color: rgba(31,82,65,1);
+}
+#Screenshot_2021-12-20_at_12252 {
+    position: absolute;
+    width: 798px;
+    height: 1041px;
+    left: 178px;
+    top: 7635px;
+    overflow: visible;
+}
+#Component_1__1 {
+    position: absolute;
+    width: 640px;
+    height: 683px;
+    left: -1px;
+    top: 4924px;
+    overflow: visible;
+}
+#Mask_Group_1 {
+    position: absolute;
+    width: 640px;
+    height: 683px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_74 {
+    fill: rgba(31,82,65,1);
+}
+.Rectangle_74 {
+    mix-blend-mode: color;
+    position: absolute;
+    overflow: visible;
+    width: 639px;
+    height: 683px;
+    left: 1px;
+    top: 0px;
+}
+#Healthcare_Buildings {
+    left: 71px;
+    top: 598px;
+    position: absolute;
+    overflow: visible;
+    width: 298px;
+    white-space: nowrap;
+    line-height: 33px;
+    margin-top: -1.5px;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(252,252,250,1);
+}
+#Component_2__1 {
+    position: absolute;
+    width: 641px;
+    height: 683px;
+    left: 639px;
+    top: 4924px;
+    overflow: visible;
+}
+#Mask_Group_2 {
+    position: absolute;
+    width: 640px;
+    height: 683px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_75 {
+    fill: rgba(31,82,65,1);
+}
+.Rectangle_75 {
+    mix-blend-mode: color;
+    position: absolute;
+    overflow: visible;
+    width: 639px;
+    height: 683px;
+    left: 2px;
+    top: 0px;
+}
+#Education_Buildings {
+    left: 72px;
+    top: 598px;
+    position: absolute;
+    overflow: visible;
+    width: 286px;
+    white-space: nowrap;
+    line-height: 33px;
+    margin-top: -1.5px;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(252,252,250,1);
+}
+#Component_3__1 {
+    position: absolute;
+    width: 640px;
+    height: 683px;
+    left: 1279px;
+    top: 4924px;
+    overflow: visible;
+}
+#Mask_Group_3 {
+    position: absolute;
+    width: 640px;
+    height: 683px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_76 {
+    fill: rgba(31,82,65,1);
+}
+.Rectangle_76 {
+    mix-blend-mode: color;
+    position: absolute;
+    overflow: visible;
+    width: 639px;
+    height: 683px;
+    left: 1px;
+    top: 0px;
+}
+#Commercial_Buildings {
+    left: 71px;
+    top: 598px;
+    position: absolute;
+    overflow: visible;
+    width: 315px;
+    white-space: nowrap;
+    line-height: 33px;
+    margin-top: -1.5px;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(252,252,250,1);
+}
+#Component_4__1 {
+    position: absolute;
+    width: 640px;
+    height: 683px;
+    left: -1px;
+    top: 5607px;
+    overflow: visible;
+}
+#Mask_Group_6 {
+    position: absolute;
+    width: 640px;
+    height: 683px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_77 {
+    fill: rgba(31,82,65,1);
+}
+.Rectangle_77 {
+    mix-blend-mode: color;
+    position: absolute;
+    overflow: visible;
+    width: 639px;
+    height: 683px;
+    left: 1px;
+    top: 0px;
+}
+#Government_Buildings {
+    left: 71px;
+    top: 598px;
+    position: absolute;
+    overflow: visible;
+    width: 319px;
+    white-space: nowrap;
+    line-height: 33px;
+    margin-top: -1.5px;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(252,252,250,1);
+}
+#Component_5__1 {
+    position: absolute;
+    width: 641px;
+    height: 683px;
+    left: 639px;
+    top: 5607px;
+    overflow: visible;
+}
+#Mask_Group_5 {
+    position: absolute;
+    width: 640px;
+    height: 683px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_78 {
+    fill: rgba(31,82,65,1);
+}
+.Rectangle_78 {
+    mix-blend-mode: color;
+    position: absolute;
+    overflow: visible;
+    width: 639px;
+    height: 683px;
+    left: 2px;
+    top: 0px;
+}
+#Residences {
+    left: 72px;
+    top: 598px;
+    position: absolute;
+    overflow: visible;
+    width: 168px;
+    white-space: nowrap;
+    line-height: 33px;
+    margin-top: -1.5px;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(252,252,250,1);
+}
+#Component_6__1 {
+    position: absolute;
+    width: 641px;
+    height: 683px;
+    left: 1279px;
+    top: 5607px;
+    overflow: visible;
+}
+#Group_4 {
+    position: absolute;
+    width: 640px;
+    height: 683px;
+    left: 1px;
+    top: 0px;
+    overflow: visible;
+}
+#Rectangle_79 {
+    fill: rgba(31,82,65,1);
+}
+.Rectangle_79 {
+    mix-blend-mode: color;
+    position: absolute;
+    overflow: visible;
+    width: 639px;
+    height: 683px;
+    left: 0px;
+    top: 0px;
+}
+#Restaurants {
+    left: 70px;
+    top: 598px;
+    position: absolute;
+    overflow: visible;
+    width: 175px;
+    white-space: nowrap;
+    line-height: 33px;
+    margin-top: -1.5px;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(252,252,250,1);
+}
+#Rectangle_80 {
+    fill: rgba(252,252,250,1);
+}
+.Rectangle_80 {
+    filter: drop-shadow(0px 5px 16px rgba(0, 0, 0, 0.302));
+    position: absolute;
+    overflow: visible;
+    width: 472px;
+    height: 517px;
+    left: 59px;
+    top: 2575px;
+}
+#Rectangle_1330 {
+    fill: rgba(252,252,250,1);
+}
+.Rectangle_1330 {
+    filter: drop-shadow(0px 5px 16px rgba(0, 0, 0, 0.302));
+    position: absolute;
+    overflow: visible;
+    width: 472px;
+    height: 517px;
+    left: 518px;
+    top: 2575px;
+}
+#Rectangle_1331 {
+    fill: rgba(252,252,250,1);
+}
+.Rectangle_1331 {
+    filter: drop-shadow(0px 5px 16px rgba(0, 0, 0, 0.302));
+    position: absolute;
+    overflow: visible;
+    width: 472px;
+    height: 517px;
+    left: 977px;
+    top: 2575px;
+}
+#Rectangle_1332 {
+    fill: rgba(252,252,250,1);
+}
+.Rectangle_1332 {
+    filter: drop-shadow(0px 5px 16px rgba(0, 0, 0, 0.302));
+    position: absolute;
+    overflow: visible;
+    width: 472px;
+    height: 517px;
+    left: 1438px;
+    top: 2575px;
+}
+#We_are_passionate {
+    left: 128px;
+    top: 2650.5px;
+    position: absolute;
+    overflow: visible;
+    width: 287px;
+    white-space: nowrap;
+    line-height: 81px;
+    margin-top: -24.5px;
+    text-align: center;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: rgba(31,82,65,1);
+}
+#Our_Team {
+    left: 1049px;
+    top: 7905px;
+    position: absolute;
+    overflow: visible;
+    width: 151px;
+    white-space: nowrap;
+    line-height: 81px;
+    margin-top: -24.5px;
+    text-align: center;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: rgba(31,82,65,1);
+}
+#Honest__Efficient {
+    left: 587px;
+    top: 2650.5px;
+    position: absolute;
+    overflow: visible;
+    width: 287px;
+    white-space: nowrap;
+    line-height: 81px;
+    margin-top: -24.5px;
+    text-align: center;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: rgba(31,82,65,1);
+}
+#Always_Dependable {
+    left: 1034px;
+    top: 2650.5px;
+    position: absolute;
+    overflow: visible;
+    width: 311px;
+    white-space: nowrap;
+    line-height: 81px;
+    margin-top: -24.5px;
+    text-align: center;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: rgba(31,82,65,1);
+}
+#US_Certified {
+    left: 1547px;
+    top: 2650.5px;
+    position: absolute;
+    overflow: visible;
+    width: 207px;
+    white-space: nowrap;
+    line-height: 81px;
+    margin-top: -24.5px;
+    text-align: center;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: rgba(31,82,65,1);
+}
+#Lorem_ipsum_dolor_sit__amet_co {
+    left: 126px;
+    top: 2757px;
+    position: absolute;
+    overflow: visible;
+    width: 291px;
+    white-space: nowrap;
+    line-height: 32px;
+    margin-top: -3.5px;
+    text-align: center;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(31,82,65,1);
+}
+#Lorem_ipsum_dolor_sit__amet_co_b {
+    left: 585px;
+    top: 2757px;
+    position: absolute;
+    overflow: visible;
+    width: 291px;
+    white-space: nowrap;
+    line-height: 32px;
+    margin-top: -3.5px;
+    text-align: center;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(31,82,65,1);
+}
+#Lorem_ipsum_dolor_sit__amet_co_ca {
+    left: 1044px;
+    top: 2757px;
+    position: absolute;
+    overflow: visible;
+    width: 291px;
+    white-space: nowrap;
+    line-height: 32px;
+    margin-top: -3.5px;
+    text-align: center;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(31,82,65,1);
+}
+#Lorem_ipsum_dolor_sit__amet_co_cb {
+    left: 1505px;
+    top: 2757px;
+    position: absolute;
+    overflow: visible;
+    width: 291px;
+    white-space: nowrap;
+    line-height: 32px;
+    margin-top: -3.5px;
+    text-align: center;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(31,82,65,1);
+}
+#Why_Choose_Us {
+    left: 663px;
+    top: 2371px;
+    position: absolute;
+    overflow: visible;
+    width: 595px;
+    white-space: nowrap;
+    line-height: 85px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 77px;
+    color: rgba(252,252,250,1);
+}
+#Group_23 {
+    position: absolute;
+    width: 268px;
+    height: 75px;
+    left: 826px;
+    top: 3121px;
+    overflow: visible;
+}
+#Rectangle_1327_cc {
+    fill: transparent;
+    stroke: rgba(252,252,250,1);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_1327_cc {
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 75px;
+    left: 0px;
+    top: 0px;
+}
+#KNOW_MORE_cd {
+    left: 46px;
+    top: 23px;
+    position: absolute;
+    overflow: visible;
+    width: 178px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(252,252,250,1);
+    letter-spacing: 0.6px;
+}
+#Group_25 {
+    position: absolute;
+    width: 268px;
+    height: 75px;
+    left: 836px;
+    top: 4375px;
+    overflow: visible;
+}
+#Rectangle_1327_cf {
+    fill: transparent;
+    stroke: rgba(252,252,250,1);
+    stroke-width: 2px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Rectangle_1327_cf {
+    position: absolute;
+    overflow: visible;
+    width: 268px;
+    height: 75px;
+    left: 0px;
+    top: 0px;
+}
+#ABOUT_US_cg {
+    left: 63px;
+    top: 23px;
+    position: absolute;
+    overflow: visible;
+    width: 144px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(252,252,250,1);
+    letter-spacing: 0.6px;
+}
+#Group_24 {
+    position: absolute;
+    width: 1983px;
+    height: 1322px;
+    left: 0px;
+    top: 3326px;
+    overflow: visible;
+}
+#Rectangle_1379_cj {
+    fill: url(#Rectangle_1379_cj);
+}
+.Rectangle_1379_cj {
+    position: absolute;
+    overflow: visible;
+    width: 2029px;
+    height: 361px;
+    left: -61px;
+    top: 3245px;
+}
+#YOUR_BEST_GENERAL__CONTRACTOR_ {
+    left: 836px;
+    top: 3942px;
+    position: absolute;
+    overflow: visible;
+    width: 781px;
+    white-space: nowrap;
+    line-height: 85px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 77px;
+    color: rgba(252,252,250,1);
+}
+#Rectangle_1383 {
+    opacity: 0.257;
+    fill: rgba(31,82,65,1);
+}
+.Rectangle_1383 {
+    position: absolute;
+    overflow: visible;
+    width: 1533px;
+    height: 777px;
+    left: 67px;
+    top: 6556px;
+}
+#Rectangle_1384 {
+    opacity: 0.257;
+    fill: rgba(31,82,65,1);
+}
+.Rectangle_1384 {
+    position: absolute;
+    overflow: visible;
+    width: 1533px;
+    height: 777px;
+    left: 1652px;
+    top: 6556px;
+}
+#Leading_the_way_in_commercial_ {
+    left: 369px;
+    top: 6446px;
+    position: absolute;
+    overflow: visible;
+    width: 1183px;
+    white-space: nowrap;
+    line-height: 61px;
+    margin-top: -10.5px;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgba(31,82,65,1);
+}
+#Polygon_1 {
+    fill: rgba(252,252,250,1);
+}
+.Polygon_1 {
+    overflow: visible;
+    position: absolute;
+    width: 103px;
+    height: 61px;
+    transform: matrix(1,0,0,1,782,6902) rotate(90deg);
+    transform-origin: center;
+    left: 0px;
+    top: 0px;
+}
+#Project_Custom_Residential_Hom {
+    left: 123px;
+    top: 7244.5px;
+    position: absolute;
+    overflow: visible;
+    width: 551px;
+    white-space: nowrap;
+    line-height: 81px;
+    margin-top: -24.5px;
+    text-align: center;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: rgba(252,252,250,1);
+}
+#Project_Custom_Residential_Hom_cq {
+    left: 1730px;
+    top: 7244.5px;
+    position: absolute;
+    overflow: visible;
+    width: 551px;
+    white-space: nowrap;
+    line-height: 81px;
+    margin-top: -24.5px;
+    text-align: center;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: rgba(252,252,250,1);
+}
+#Group_26 {
+    position: absolute;
+    width: 473px;
+    height: 1px;
+    left: 724px;
+    top: 7434.5px;
+    overflow: visible;
+}
+#Line_1 {
+    opacity: 0.38;
+    fill: transparent;
+    stroke: rgba(31,82,65,1);
+    stroke-width: 4px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_1 {
+    overflow: visible;
+    position: absolute;
+    width: 465px;
+    height: 4px;
+    left: 12px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Line_2 {
+    fill: transparent;
+    stroke: rgba(31,82,65,1);
+    stroke-width: 4px;
+    stroke-linejoin: miter;
+    stroke-linecap: butt;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_2 {
+    overflow: visible;
+    position: absolute;
+    width: 123px;
+    height: 4px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Over_the_years_we_have_gained_ {
+    left: 1049px;
+    top: 8255px;
+    position: absolute;
+    overflow: visible;
+    width: 695px;
+    white-space: nowrap;
+    line-height: 32px;
+    margin-top: -3.5px;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(31,82,65,1);
+}
+#A_word_from_Our_CEO {
+    left: 1049px;
+    top: 8028px;
+    position: absolute;
+    overflow: visible;
+    width: 475px;
+    white-space: nowrap;
+    line-height: 82px;
+    margin-top: -2.5px;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 77px;
+    color: rgba(31,82,65,1);
+}
+#J__K {
+    left: 67px;
+    top: 9118px;
+    position: absolute;
+    overflow: visible;
+    width: 429px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Termina;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 140px;
+    color: rgba(252,252,250,1);
+    letter-spacing: -0.1px;
+}
+#GENERAL_CONTRACTORS {
+    left: 67px;
+    top: 9300px;
+    position: absolute;
+    overflow: visible;
+    width: 436px;
+    white-space: nowrap;
+    line-height: 106px;
+    margin-top: -39.5px;
+    text-align: left;
+    font-family: Termina;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    color: rgba(252,252,250,1);
+    letter-spacing: -0.1px;
+}
+#INSTAGRAM {
+    left: 67px;
+    top: 8956px;
+    position: absolute;
+    overflow: visible;
+    width: 182px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(252,252,250,1);
+}
+#Terms_of_Use {
+    left: 67px;
+    top: 9474px;
+    position: absolute;
+    overflow: visible;
+    width: 191px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(252,252,250,1);
+}
+#FACEBOOK {
+    left: 311px;
+    top: 8956px;
+    position: absolute;
+    overflow: visible;
+    width: 172px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(252,252,250,1);
+}
+#Privacy_Policy {
+    left: 311px;
+    top: 9474px;
+    position: absolute;
+    overflow: visible;
+    width: 206px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(252,252,250,1);
+}
+#BACK_TO_TOP {
+    left: 1648px;
+    top: 8956px;
+    position: absolute;
+    overflow: visible;
+    width: 206px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(252,252,250,1);
+}
+#Copyright_2022 {
+    left: 1624px;
+    top: 9474px;
+    position: absolute;
+    overflow: visible;
+    width: 234px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(252,252,250,1);
+}
+#GET_IN_TOUCH {
+    left: 1049px;
+    top: 8956px;
+    position: absolute;
+    overflow: visible;
+    width: 222px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(252,252,250,1);
+}
+#n_45_Laurinburg_Rd_Raeford_NC_ {
+    left: 1049px;
+    top: 9149px;
+    position: absolute;
+    overflow: visible;
+    width: 280px;
+    white-space: nowrap;
+    line-height: 38px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(252,252,250,1);
+}
+#n__910-248-6464_infojandkbuild {
+    left: 1049px;
+    top: 9241px;
+    position: absolute;
+    overflow: visible;
+    width: 355px;
+    white-space: nowrap;
+    line-height: 38px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(252,252,250,1);
+}
+#Component_8__1 {
+    position: absolute;
+    width: 132px;
+    height: 30px;
+    left: 1524px;
+    top: 79px;
+    overflow: visible;
+}
+#PROJECTS {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 133px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Halcom;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(0,0,0,1);
+}
+#Image_10 {
+    position: absolute;
+    width: 165px;
+    height: 75px;
+    left: 67px;
+    top: 44px;
+    overflow: visible;
+}
+
+body{
+	margin: 0 auto;
+	width: 100%;
+  }
