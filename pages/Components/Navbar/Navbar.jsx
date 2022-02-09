@@ -6,6 +6,7 @@ import Aboutus from "../About/Aboutus";
 import Service from "../Services/Services";
 import Contact from "../Contact/Contact";
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 const Navbar = () => {
@@ -16,21 +17,21 @@ const Navbar = () => {
         <I>
         <Image className="i" src={logo}></Image>
         </I>
-          <a href="/">
+          <Link href="/">
             <li id="h">HOME </li>
-          </a>
-          <a href="/Aboutus">
+          </Link>
+          <Link href="/Aboutus">
             <li id="a">ABOUT US</li>
-          </a>
-          <a href="/Services">
+          </Link>
+          <Link href="/Services">
           <li id="s">SERVICES</li>
-          </a>
-          <a href="/Services">
+          </Link>
+          <Link href="/Services">
           <li id="p">PROJECTS</li>
-          </a>
-          <a href="/Contact">
+          </Link>
+          <Link href="/Contact">
           <li id="c">CONTACT</li>
-          </a>
+          </Link>
         </Navbar1>
         
     </>

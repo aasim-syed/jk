@@ -1,5 +1,5 @@
 import React from 'react';
-import Ser from '../pages/Components/Services/Services'
+import Ser from './Components/Services/Services'
 const Services = () => {
   return (<>
   <Ser/>
