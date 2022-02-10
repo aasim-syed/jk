@@ -100,10 +100,10 @@ const Home1 = () => {
           <Fade bottom duration={3100} distance="310px">
           <Why />
           </Fade>
-          {/* <svg class="Rectangle_1329">
+          <svg class="Rectangle_1329">
 		<rect id="Rectangle_1329" rx="0" ry="0" x="0" y="0" width="100%" height="1083">
 		</rect>
-	</svg> */}
+	</svg>
  
           <div id="WHY_CHOOSE_US">
             <span>WHY CHOOSE US?</span>
@@ -222,7 +222,7 @@ const Home1 = () => {
           
           <Yourbest>
           <Fade bottom duration={3100} distance="310px">
-            <Image src={G24}></Image>
+            <Image styles={{background:'rgba(31, 82, 65, 1)'}} src={G24}></Image>
             </Fade>
             <div id="YOUR_BEST_GENERAL__CONTRACTOR_">
               <span>
@@ -269,7 +269,7 @@ width: 100%;
   width: 100%;
   height: 9560px;
   background-color: rgba(252, 252, 250, 1);
-  overflow: hidden;
+  overflow: visible;
   --web-view-name: HOME – 1;
   --web-view-id: HOME__1;
   --web-scale-on-resize: true;
@@ -471,6 +471,19 @@ width: 100%;
     fill: rgba(31, 82, 65, 1);
   }
   .Rectangle_1329 {
+    position: absolute;
+    overflow: visible;
+    width: 100%;
+    height: 1083px;
+    left: 0px;
+    top: 2249px;
+    right: 0px;
+    background: rgba(31, 82, 65, 1);
+  }
+  #Rectangle_13292 {
+    fill: rgba(31, 82, 65, 1);
+  }
+  .Rectangle_13292 {
     position: absolute;
     overflow: visible;
     width: 2029px;
@@ -910,7 +923,7 @@ const Img = Styled.div`
 const Why = Styled.div`
   position: absolute;
   overflow: visible;
-
+  width:100%;
   height: 1083px;
   left: 0px;
   top: 2249px;
@@ -1418,8 +1431,9 @@ const Why = Styled.div`
   // }
 `;
 const Yourbest = Styled.div`
+
   position: absolute;
-  overflow: visible;
+  
   width: 100%;
   height: 1289px;
   left: 0px;

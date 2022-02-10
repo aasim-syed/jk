@@ -15,7 +15,7 @@ const Aboutus = () => {
 <>
     
     <Navbar/>
-    <Fade  bottom duration={2000} distance="20px" >
+    <Fade  bottom duration={2000} distance="310px" >
     <Hero>
     <Image src={Heroabout}></Image>
     <p>We are bringing technical knowledge, experience and resourcefulness to the table.</p>
@@ -238,7 +238,7 @@ p{
   left: 1000px;
 		top: 537px;
 		position: absolute;
-		overflow: hidden;
+		overflow: visible;
 		width: 790px;
 		height: 194px;
 		line-height: 65px;
@@ -360,7 +360,7 @@ const OurMisson = styled.div`
 
 		position: absolute;
 		overflow: visible;
-		width: 100%;
+		width: 2029px;
 		height: 1146px;
 		left: 0px;
 		top: 2249px;

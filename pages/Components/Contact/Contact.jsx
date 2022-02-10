@@ -4,24 +4,29 @@ import Footer from '../Footer/Footer'
 import styled from 'styled-components'
 import Tele from './Scroll Group 3@2x.png'
 import Image from 'next/image'
-
+import Fade from 'react-reveal/Fade';
 const Contact = () => {
 
   return (
     <>
       <Navbar/>
+      <Fade  bottom duration={2000} distance="310px" >
       <Form>
+      <Fade  bottom duration={2000} distance="310px" >
         <Img>
         <Image className='img' src={Tele}/>
         </Img>
+        </Fade>
+        <Fade  bottom duration={2000} distance="310px" >
         <h1 className='got'>Got a Project in mind? Ping us now!</h1>
         <input className='name' type='text' placeholder='Name'/>
         <input className='mailid' type='text' placeholder='Mailid'/>
         <input className='mes' type='text' placeholder='Message'/>
         <button className='knowmore'>Know more</button>
-
+        </Fade>
 
       </Form>
+      </Fade>
     </>
   )
 };
@@ -40,7 +45,7 @@ bottom: 0px;
 background: #D6D5D0;
 opactiy:1;
 .got{
-  top: 300px;
+  top: 100px;
 left: 902px;
 width: 1007px;
 height: 174px;
@@ -53,7 +58,7 @@ font-family: Numans;
     position: absolute;
 }
 .name{
-  top: 516px;
+  top: 316px;
 left: 862px;
 width: 402px;
 height: 75px;
@@ -71,7 +76,7 @@ margin:0 auto;
 max-width:500px;
 }
 .mailid{
-  top: 516px;
+  top: 316px;
 left: 1300px;
 width: 445px;
 height: 75px;
@@ -88,7 +93,7 @@ background: white;
 }
 .mes{
 
-  top: 657px;
+  top: 457px;
 left: 865px;
 width: 891px;
 height: 212px;
@@ -110,7 +115,7 @@ position: absolute;
     font-weight: normal;
     font-size: 25px;
     color: rgba(0, 0, 0, 1);
-  top: 928px;
+  top: 728px;
 left: 902px;
 width: 276px;
 height: 75px;
