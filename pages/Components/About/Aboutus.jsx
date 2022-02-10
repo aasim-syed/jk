@@ -15,7 +15,7 @@ const Aboutus = () => {
 <>
     
     <Navbar/>
-    <Fade  bottom duration={2000} distance="310px" >
+    <Fade  bottom duration={3100} distance="310px" >
     <Hero>
     <Image src={Heroabout}></Image>
     <p>We are bringing technical knowledge, experience and resourcefulness to the table.</p>
