@@ -100,7 +100,7 @@ const Home1 = () => {
           <Fade bottom duration={3100} distance="310px">
           <Why />
           </Fade>
-          <svg class="Rectangle_1329">
+          <svg className="Rectangle_1329">
 		<rect id="Rectangle_1329" rx="0" ry="0" x="0" y="0" width="100%" height="1083">
 		</rect>
 	</svg>
