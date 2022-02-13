@@ -8,6 +8,7 @@ import React from 'react';
 import styled from "styled-components"
 import Navbar from '../Navbar/Navbar';
 import Heroabout from "./Images/Mask_Group_10.png"
+import Footer from '../Footer/Footer';
 
 const Aboutus = () => {
 
@@ -167,7 +168,7 @@ const Aboutus = () => {
 	</div>
   </Fade>
   <Fade  bottom duration={3300} distance="310px" >
-  <div id="Group_27">
+  {/* <div id="Group_27">
 		<svg className="Rectangle_1385">
 			<rect id="Rectangle_1385" rx="19" ry="19" x="0" y="0" width="2029" height="750">
 			</rect>
@@ -214,7 +215,10 @@ const Aboutus = () => {
 	<svg className="Line_5" viewBox="0 0 1682 1">
 		<path id="Line_5" d="M 0 0 L 1682 0">
 		</path>
-	</svg>
+	</svg> */}
+  <Fo>
+  <Footer/>
+  </Fo>
   </Fade>
   </PhotosandFooter>
     
@@ -1475,10 +1479,19 @@ const PhotosandFooter = styled.div`
   fill: rgba(31,82,65,1);
 }
 .Rectangle_1385 {
+
   position: absolute;
   overflow: visible;
-  width: 2029px;
+  width: 100%;
   height: 750px;
   left: 0px;
   top: 0px;
 }`;
+
+const Fo = styled.div`
+position: absolute;
+  width: 100%;
+  height: 750px;
+  left: 0px;
+  top: -7700px;
+  overflow: visible;`;

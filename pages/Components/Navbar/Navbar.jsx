@@ -1,5 +1,5 @@
 import React from "react";
-import styled, { keyframes } from "styled-components";
+import Styled, { keyframes } from "styled-components";
 import logo from "./Images/Image_10.png";
 import Home from "../Home/Home";
 import Aboutus from "../About/Aboutus";
@@ -40,12 +40,22 @@ const Navbar = () => {
 
 export default Navbar;
 
-const Navbar1 = styled.div`
 
-	margin: 0 auto;
+const Wrapper = Styled.div`
+
+  margin: 0 auto;
+  
+  left:0;
+  right:0;
+`;
+
+const Navbar1 = Styled.div`
+
+
 	width: 100%;
   display: grid;
- // background:red;
+  align-items:center;
+  // background:red;
   a {
     color: none;
     text-decoration: none;
@@ -53,14 +63,14 @@ const Navbar1 = styled.div`
   position: absolute;
 
   height: 126px;
-  right: 0px;
-  left: 0px;
+  
   z-index: 1;
   top: 0px;
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
   list-style: none;
+
   :hover {
     color: rgba(31, 81, 64, 1);
   }
@@ -81,6 +91,9 @@ const Navbar1 = styled.div`
     :hover {
       color: rgba(31, 81, 64, 1);
     }
+    @media only screen and (max-width:1850px){
+      left : 800px;
+    }
   }
   #a {
     left: 1129px;
@@ -97,6 +110,9 @@ const Navbar1 = styled.div`
     color: rgba(0, 0, 0, 1);
     :hover {
       color: rgba(31, 81, 64, 1);
+    }
+    @media only screen and (max-width:1850px){
+      left : 950px;
     }
   }
   #s {
@@ -115,6 +131,9 @@ const Navbar1 = styled.div`
     :hover {
       color: rgba(31, 81, 64, 1);
     }
+    @media only screen and (max-width:1850px){
+      left : 1150px;
+    }
   }
   #p {
     left: 1508px;
@@ -131,6 +150,9 @@ const Navbar1 = styled.div`
     color: rgba(0, 0, 0, 1);
     :hover {
       color: rgba(31, 81, 64, 1);
+    }
+    @media only screen and (max-width:1850px){
+      left : 1350px;
     }
   }
   #c {
@@ -149,14 +171,26 @@ const Navbar1 = styled.div`
     :hover {
       color: rgba(31, 81, 64, 1);
     }
+    @media only screen and (max-width:1850px){
+      left : 1550px;
+    }
   }
  
 `;
-const I = styled.div`
+const I = Styled.div`
   position: absolute;
   width: 165px;
   height: 75px;
   left: 67px;
   top: 44px;
   overflow: visible;
+`;
+ 
+const Container = Styled.div `
+  width: 100%;
+
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 `;

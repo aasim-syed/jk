@@ -9,22 +9,13 @@
 		--web-view-ids: ABOUT_US;
 	}
 	* {
-		margin: 0;
+		margin: 0 auto;
+		
 		padding: 0;
 		box-sizing: border-box;
 		border: none;
 	}
-	#ABOUT_US {
-		position: absolute;
-		width: 1920px;
-		height: 7983px;
-		background-color: rgba(252,252,250,1);
-		overflow: hidden;
-		--web-view-name: ABOUT US;
-		--web-view-id: ABOUT_US;
-		--web-scale-on-resize: true;
-		--web-enable-deep-linking: true;
-	}
+	
 	#Rectangle_1388 {
 		fill: rgba(31,82,65,1);
 	}
@@ -1134,14 +1125,7 @@
     --web-scale-on-resize: true;
     --web-enable-deep-linking: true;
 }
-#Mask_Group_7 {
-    position: absolute;
-    width: 1786px;
-    height: 906px;
-    left: 67px;
-    top: 168px;
-    overflow: visible;
-}
+
 #Mask_Group_8 {
     position: absolute;
     width: 1532px;
